@@ -1,0 +1,161 @@
+html {
+      margin: 1em 20%;
+      background-color: #fafafa;
+    }
+    header {
+      font-family: 'Fira Sans', sans-serif;
+      font-family: 'Oswald', sans-serif; 
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      border-bottom: 1px solid #e3e3e8;
+    }
+    #logo {
+      float: left;
+      font-size: 3em;
+      margin: 0;
+      padding: .4em;
+      text-decoration: none;
+      color: #333;
+      border-right: 1px solid #e3e3e8;
+      transition: .5s all;
+    }
+    #logo:hover {
+      color: #fafafa;
+      background-color: #008607;
+    }
+    nav {
+      float: left;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 2.2em 2em;
+    }
+    nav ul li {
+      display: inline;
+      padding: 0 .4em;
+    }
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.6em;
+      padding-bottom: 1.3em;
+      transition: .5s color;
+    }
+    nav ul li a:hover {
+      border-bottom: 3px solid #333;
+    }
+    #current {
+      color: #008607;
+      border-bottom: 3px solid #333;
+    }
+    body {
+      height: 100%;
+      overflow: hidden;
+        padding-top: auto px;
+  }
+  
+  body {
+  font-size: larger;
+  text-align: center;
+  }
+  
+  br {
+    display:block;
+    margin-top: auto;
+  }
+
+  /* Code for cards */
+
+/* sets everything to zero */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .cardphoto img {
+    display: block;
+    max-width: 100%; /* makes image responsive if needed but makes sure it doesn't stretch */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 100%;
+  }
+ 
+  /* make the Section class cards here.  */
+ 
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+ 
+  /* make the card flex. The default is row so change flex direction to vertical. */
+  .card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 250px;
+    max-width: 350px;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+  }
+  .card:hover {
+    transition: all 0.1s ease-in;
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .cardphoto {
+    max-height: 250px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #a5bea5;
+  }
+ 
+  .cardarticle {
+    padding: 3rem;
+    padding-left: auto;
+    flex-grow: 1;
+  }
+ 
+  /* typography */
+  .cardH1 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: rgb(0, 0, 0);
+  }
+ 
+  .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+ 
+  .card footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+  }
+
+  h3{
+      color:rgb(0, 0, 0);
+      padding-bottom: 5px;
+  }
+ 
+  .card p {
+      color: grey;
+  }
